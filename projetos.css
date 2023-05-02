@@ -1,0 +1,179 @@
+
+    @font-face{
+        font-family: lEMON;
+        src: url(LEMONMILK-Bold.ttf);
+    
+}
+
+
+
+body{
+    background-color: rgb(24, 19, 54);
+    color: white; 
+}
+
+.container img {
+    max-width: 1000px;
+    max-height:1050px;
+    width: auto;
+    height: auto;
+    align-items: center center;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0px 0px 20px 10px rgb(0, 0, 0);
+}
+
+.container {
+    clear: both;
+    margin-top: 20px;
+
+}
+
+.caitlyn img{
+    max-width: 1000px;
+    max-height:1050px;
+    width: auto;
+    height: auto;
+    align-items: center center;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0px 0px 20px 10px rgb(0, 0, 0);
+}
+.kaedesk img{
+    max-width: 1000px;
+    max-height:1050px;
+    width: auto;
+    height: auto;
+    align-items: center center;
+    margin: 0 auto;
+    display: block;
+
+  box-shadow: 0px 0px 20px 10px rgb(0, 0, 0);
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-family:LEMONMILK-LIGHT;
+    margin:top 550px;
+    padding: 45px
+    }
+
+    @font-face{
+        font-family: LEMONMILK;
+        src: url(LEMONMILK-Bold.ttf);
+    }
+    @font-face{
+        font-family: LEMONMILK-ITALIC;
+        src: url(LEMONMILK-BoldItalic.ttf);
+    }
+    @font-face{
+        font-family: LEMONMILK-LIGHT;
+        src: url(LEMONMILK-Light.ttf);
+    }
+
+    @import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+    html, body{
+      height: 100%;
+      font-weight: 800;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body{
+      background: 24, 19, 54;
+      font-family: Arial;
+    }
+    
+    .container {
+      display: flex;
+    /*   border:1px solid red; */
+      height: 100%;
+      align-items: center;
+    }
+    
+    svg {
+        display: block;
+        font: 10.5em 'Montserrat';
+        width: 960px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    
+    .text-copy {
+        fill: none;
+        stroke: white;
+        stroke-dasharray: 6% 29%;
+        stroke-width: 5px;
+        stroke-dashoffset: 0%;
+        animation: stroke-offset 5.5s infinite linear;
+    }
+    
+    .text-copy:nth-child(1){
+        stroke: #4D163D;
+        animation-delay: -1;
+    }
+    
+    .text-copy:nth-child(2){
+        stroke: #840037;
+        animation-delay: -2s;
+    }
+    
+    .text-copy:nth-child(3){
+        stroke: #BD0034;
+        animation-delay: -3s;
+    }
+    
+    .text-copy:nth-child(4){
+        stroke: #BD0034;
+        animation-delay: -4s;
+    }
+    
+    .text-copy:nth-child(5){
+        stroke: #FDB731;
+        animation-delay: -5s;
+    }
+    
+    @keyframes stroke-offset{
+        100% {stroke-dashoffset: -35%;}
+    }
+
+
+.container {
+    padding: 0px 50px;
+}
+
+nav a {
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #be4242;
+}
+
+.contact-form input{
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+}
+
+.contact-form input[type=text] {
+    height: 100px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 36px;
+}
+
+ul > li{
+    margin: 10px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
